@@ -1,0 +1,127 @@
+.active{
+    color: #1313;
+}
+
+.formimg{
+    filter: blur(4px);
+    -webkit-filter: blur(4px),
+}
+
+.paginationBttns{
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+}
+.showprofile{
+    display: flex;
+}
+.hideprofile{
+    opacity: 0;
+    display: none;
+}
+
+.paginationBttns a{
+   padding: 7px 12px;
+   margin: 8px;
+   font-size: 18px;
+   border-radius: 5px;
+   border: 2px solid #131313;
+   color: black;
+   cursor: pointer; 
+}
+
+.paginationBttns a:hover{
+    color: #fff;
+    background-color: #3e2723;
+}
+
+.paginationActive a{
+    color: #fff;
+    font-weight: 200;
+    background-color: #3e2723;
+}
+
+.paginationDisabled a{
+    color: rgba(128, 128, 128, 0.11);
+    background-color:rgba(128, 128, 128, 0.11) ;
+}
+.paginationDisabled:hover a{
+    color: rgba(128, 128, 128, 0.11);
+    background-color:rgba(128, 128, 128, 0.11) ;
+}
+
+.blur:hover{
+    filter: blur(69px);
+    -webkit-filter: blur(74px);
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.quantity{
+    font-size: 20px;
+    font-weight: 300;
+}
+.cancel{
+    font-size: 20px;
+    margin-top: 50px;
+    margin: 25px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    position: absolute;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: #1313;
+}
+.cancel:hover{
+    transform: scale(1.1);
+}
+.product{
+    flex: 1;
+    font-size: 20px;
+    letter-spacing: 0px;
+    border-bottom: 2px solid #1313;
+
+    background-position-x: left;
+}
+.ha{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.failed{
+    color: #ff0000;
+
+}
+.buttonSignupLInk{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.buttonSignup{
+    padding: 13px 20px;
+    top: 30px;
+    position: absolute;
+    border: none;
+    position: fixed;
+    left: 37px;
+    border-radius: 10px;
+    background-color: darkblue;
+}
+.pass{
+    color: #131313;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  }
